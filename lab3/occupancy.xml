@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<occupancy>
+    <accommodation>
+        <comfortable>Люкс</comfortable>
+        <numberOfBed>1</numberOfBed>
+        <price>2500</price>
+    </accommodation>
+    <checkIn>2020-09-25T00:00:00+03:00</checkIn>
+    <checkOut>2017-09-28T00:00:00+03:00</checkOut>
+    <client>
+        <document>8014977688</document>
+        <firstName>Иванов</firstName>
+        <lastName>Иван</lastName>
+        <phone>89397443570</phone>
+    </client>
+    <useOfServices>
+        <service>
+            <name>Бассейн</name>
+            <price>500</price>
+        </service>
+    </useOfServices>
+</occupancy>
