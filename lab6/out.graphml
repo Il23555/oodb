@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+	http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+	<graph id="G" edgedefault="undirected">
+		<node id="hotel.Accommodation"/>
+		<node id="hotel.Client"/>
+		<node id="hotel.Occupancy"/>
+		<node id="hotel.Service"/>
+		<node id="hotel.UseOfServices"/>
+		<edge id="hotel.Occupancyhotel.Accommodation" directed="true" source="hotel.Occupancy" target="hotel.Accommodation"/>
+		<edge id="hotel.Occupancyhotel.UseOfServices" directed="true" source="hotel.Occupancy" target="hotel.UseOfServices"/>
+		<edge id="hotel.UseOfServiceshotel.Client" directed="true" source="hotel.UseOfServices" target="hotel.Client"/>
+	</graph>
+</graphml>
